@@ -76,3 +76,25 @@
     align-items: center;
     font-size: 2rem;
 }
+
+
+@media screen and (max-width: 480px) {
+    .vertical-text {
+        font-size: 1.5rem;
+        height: 100px;
+    }
+
+    .container {
+        margin: 0
+    }
+
+    .horizontal-container {
+        width: 100vw;
+        margin: 0;
+    }
+    .horizontal-container > div {
+        width: 100vw;
+        margin: 0;
+    }
+
+  }
